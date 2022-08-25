@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/output.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- NAVBAR -->
+    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+            <div class="container">
+                <div class="flex items-center justify-between relative">
+                    <div class="px-4">
+                        <a href="#home" class="font-bold text-lg text-primary block py-6">Sinau <span class="text-black text-[10px]"><i class='bx bxs-circle'></i></span></a>
+                    </div>
+                    <div class="flex items-center px-4">
+                        <button id="hamburger" class="block absolute right-4 md:hidden">
+                            <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+                            <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                            <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+                        </button>
+                        <nav id="nav-menu" class="hidden absolute py-5 bg-body w-full right-0 top-full md:block md:static md:bg-transparent md:max-w-full">
+                            <ul class="block h-[100vh] md:flex md:h-full">
+                                <li class="group">
+                                    <a href="#home" class="text-base text-black py-10 mx-8 flex group-hover:text-primary md:py-2">Home</a>
+                                </li>
+                                <li class="group">
+                                    <a href="#about" class="text-base text-black py-10 mx-8 flex group-hover:text-primary md:py-2">Artikel</a>
+                                </li>
+                                <li class="group">
+                                    <a href="#portofolio" class="text-base text-black py-10 mx-8 flex group-hover:text-primary md:py-2">About Us</a>
+                                </li>
+                                <li class="group">
+                                    <a href="#home" class="text-base text-black py-10 mx-8 flex group-hover:text-primary md:py-2">Community</a>
+                                </li>
+                                <li class="group">
+                                    <a href="#home" class="text-base text-black py-10 mx-8 flex group-hover:text-primary md:py-2">Contact</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+    </header>
+    
+    <!-- HERO -->
+    <section id="hero" class="pt-20 md:pt-32 pb-20">
+                <div class="container">
+                    <div class="flex flex-wrap justify-center">
+                        <div class="md:hidden w-full self-end px-4 md:w-1/2">
+                            <div class="relative md:mt-0 right-0">
+                                <img id="heroIMG" src="img/hero3.png" alt="Heical" class="mx-auto max-w-full">
+                            </div>
+                        </div>
+        
+                        <div class="hero-left md:w-1/2  md:block md:justify-center md:mx-auto self-center">
+                            <h3 class="text-slate-700 font-bold mx-4 text-5xl text-center md:text-left mt-4">
+                                Ini adalah Website Pendidikan Coy
+                                <div class="bg-primary text-primary h-1 w-32 mt-5 mx-auto md:mx-0"></div>
+                            </h3>
+                            <h5 class="text-slate-600 mt-4 font-semibold text-md mb-4 text-center md:text-left md:mx-4">Belajar yg bener biar bisa nikah sama anime</h5>
+                            <div class="flex mx-auto justify-center md:justify-start">
+                                <a class="mx-4 px-4 py-2 bg-primary rounded-xl text-white hover:bg-white hover:text-primary text-[14px]" href="#">Yuk, Gas Eksplor</a>
+                                <a class="mx-2 px-4 py-2 bg-white rounded-xl text-primary hover:bg-primary hover:text-white text-[14px] border-solid border-primary border-2" href="#"><span><i class='bx bx-group'></i></span> Gabung Komunitas</a>
+                            </div>
+                        </div>
+        
+                        <div class="hidden md:block w-full self-end px-4 md:w-1/2">
+                            <div class="mt-10 md:mt-0 right-0">
+                                <img id="heroIMG" src="img/hero.png" alt="Heical" class="mx-auto max-w-[50opacity-50%]">
+                            </div>
+                        </div>
+    
+                        <section id="copyright" class="mt-10 w-full">
+                            <div class="container">
+                                <div class="block md:flex md:justify-between">
+                                    <div class="Ckiri text-center md:text-start">
+                                        <p class="text-primary font-semibold">Copyright © 2022 | All rights reserved.</p>
+                                    </div>
+                                    <div class="Ckanan mt-3 md:mt-0 md:mr-5">
+                                        <ul class="flex justify-center">
+                                            <li>
+                                                <a href="#"><img class="w-[25px] m-1" src="img/dc.png" alt=""></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><img class="w-[25px] m-1" src="img/linkin.png" alt=""></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><img class="w-[25px] m-1" src="img/slack.dbb85b3a.png" alt=""></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><img class="w-[25px] m-1" src="img/twitter.9858c373.png" alt=""></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+    
+                        </section>
+                    </div>
+                </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer" class="w-full pt-20">
+        <div class="container md:flex md:justify-around md:mb-14">
+            <div class="px-4 mb-8">
+                <h3 class="text-black text-xl font-semibold mb-5">Kontak Kami : </h3>
+                <div class="flex">
+                    <ul class="flex">
+                        <li>
+                            <a href="#" class="py-3 px-3 bg-primary text-white text-xl mr-3"><i class='bx bxl-twitter' ></i></a>
+                        </li>
+                        <li>
+                            <a href="#" class="py-3 px-3 bg-primary text-white text-xl mr-3"><i class='bx bxl-youtube' ></i></a>
+                        </li>
+                        <li><a href="#" class="py-3 px-3 bg-primary text-white text-xl"><i class='bx bxl-linkedin-square' ></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="px-4 mb-3">
+                <h3 class="text-black text-xl font-semibold">Kontak Lagi : </h3>
+                <div>
+                    <ul>
+                        <li>
+                            <a href="#" class="flex items-center"><span class="text-primary text-3xl"><i class='bx bx-chevron-right' ></i></span> Discord</a>
+                        </li>
+                        <li>
+                            <a href="#" class="flex items-center"><span class="text-primary text-3xl"><i class='bx bx-chevron-right' ></i></span> Wangsaff</a>
+                        </li>
+                        <li>
+                            <a href="#" class="flex items-center"><span class="text-primary text-3xl"><i class='bx bx-chevron-right' ></i></span> Nekopoi</a>
+                        </li>
+                        <li>
+                            <a href="#" class="flex items-center"><span class="text-primary text-3xl"><i class='bx bx-chevron-right' ></i></span> Twittard</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="px-4 mb-8">
+                <h3 class="text-black text-xl font-semibold">Kontak Lagi : </h3>
+                <div>
+                    <ul>
+                        <li>
+                            <a href="#" class="flex items-center"><span class="text-primary text-3xl"><i class='bx bx-chevron-right' ></i></span> Discord</a>
+                        </li>
+                        <li>
+                            <a href="#" class="flex items-center"><span class="text-primary text-3xl"><i class='bx bx-chevron-right' ></i></span> Wangsaff</a>
+                        </li>
+                        <li>
+                            <a href="#" class="flex items-center"><span class="text-primary text-3xl"><i class='bx bx-chevron-right' ></i></span> Nekopoi</a>
+                        </li>
+                        <li>
+                            <a href="#" class="flex items-center"><span class="text-primary text-3xl"><i class='bx bx-chevron-right' ></i></span> Twittard</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="bawah bg-hitam py-4">
+            <p class="text-white text-sm text-center">© 2022 SinauIndo, Belajar tapi goblok</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
